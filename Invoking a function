@@ -1,0 +1,22 @@
+// Invoking a function within main()
+
+#include <iostream>
+
+using namespace std;
+
+int sum( int x, int y )
+{
+  int sum = x + y;
+  return sum;
+}
+
+int main ( int a, int b )
+{
+  cout << "Enter x" << endl;
+  cin >> x;
+  cout << "Enter y" << endl;
+  cin >> y;
+  cout << endl;
+  cout << "Sum: " << sum(a,b) << endl;
+  return 0;
+}
