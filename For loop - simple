@@ -1,0 +1,18 @@
+//
+// Simple for-loop to print incrementing-single number on each line, depending on the user.
+//
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int x=1,y;
+  cout << "Enter a number for the loop: ";
+  cin >> y;
+  cout << endl;
+  for ( x; x <= y; x++ )
+  {
+    cout << x << "\tHello World!\n";
+  }
+  return 0;
+}
