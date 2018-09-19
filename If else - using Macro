@@ -1,0 +1,23 @@
+// Using Macro definition for if else statement.
+
+#include <iostream>
+using namespace std;
+
+#define AREA(l,b) l*b
+
+int main(int x,int y, int area)
+{
+	area = AREA(x,y);
+
+	cout << "Side 1: ";
+	cin >> x;
+	cout << "Side 2: ";
+	cin >> y;
+
+	if ( x == y)
+        cout << "Area of the square = " << area << endl;
+        else
+        cout << "Area of the rectangle = " << area << endl;
+
+	return 0;
+}
