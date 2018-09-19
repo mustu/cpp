@@ -1,0 +1,22 @@
+//
+// A program to show how a for-loop along with Macro can be used to do the same thing as a simple for-loop.
+//
+#include <iostream>
+using namespace std;
+
+// Defining macro
+#define MAC y
+
+int main ( int x, int y)
+{
+  cout << "Enter a number for the loop: ";
+  cin >> y;
+  cout << endl;
+  cout << "Value of the Macro (MAC) before the for-loop runs: " << MAC << endl;
+  cout << endl;
+  for ( x=1; x <= MAC; x++ )
+  {
+    cout << x << "/tHello World/n";
+  }
+return 0;
+}
