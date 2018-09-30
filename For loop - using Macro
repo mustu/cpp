@@ -16,7 +16,7 @@ int main ( int x, int y)
   cout << endl;
   for ( x=1; x <= MAC; x++ )
   {
-    cout << x << "/tHello World/n";
+    cout << x << "\tHello World\n";
   }
 return 0;
 }
